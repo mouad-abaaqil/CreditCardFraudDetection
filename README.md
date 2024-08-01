@@ -1,32 +1,27 @@
 # Credit Card Fraud Detection
 
-## Objective
-This project aims to detect fraudulent credit card transactions using machine learning techniques. It includes data preprocessing, detailed exploratory data analysis, model training, and performance evaluation to accurately identify and prevent fraudulent activities.
+This project detects fraudulent credit card transactions using machine learning. It includes detailed data analysis and visualizations to accurately identify and prevent fraudulent activities. This project was developed as part of a data science initiative to enhance security in financial transactions.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Data](#data)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [License](#license)
+## Project Structure
 
-## Introduction
-Credit card fraud is a significant issue that affects financial institutions and customers alike. This project leverages machine learning to build a predictive model that can distinguish between fraudulent and legitimate transactions.
+- `Detection_de_Fraude_avec_Python.ipynb`: Jupyter notebook with code for data processing, model training, and evaluation.
+- `creditcard.csv`: Dataset containing credit card transactions.
+- `README.md`: Project description and instructions.
+- `LICENSE`: Project license.
+- `.gitignore`: Git ignore file to exclude unnecessary files.
 
-## Data
-The dataset used for this project is a collection of credit card transactions, which includes features such as transaction amount, time, and anonymized principal components obtained using PCA. The target variable indicates whether a transaction is fraudulent (1) or not (0).
+## Getting Started
 
-## Installation
-To run this project, you will need Python 3 and the following libraries:
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+To get a copy of the project up and running on your local machine, follow these steps.
 
-You can install the required libraries using:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+### Prerequisites
+
+- Python 3.x
+- Jupyter Notebook
+- Required Python packages listed in `requirements.txt`
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/CreditCardFraudDetection.git
