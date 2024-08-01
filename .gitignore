@@ -1,21 +1,50 @@
-# Byte-compiled / optimized / DLL files
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore data files
+*.csv
+*.xls
+*.xlsx
+
+# Ignore Python bytecode
 __pycache__/
 *.py[cod]
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.VENV/
 
-# Environments
-.env
-.venv
+# Ignore Jupyter Notebook hidden directories
+*.ipynb_checkpoints
 
-# Data files
-*.csv
-*.xlsx
-
-# Ignore Mac system files
+# Ignore system files
 .DS_Store
-
-# Ignore Windows system files
 Thumbs.db
-desktop.ini
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore package management files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Ignore files related to the operating system
+*.swp
+*~
+
+# Ignore files in the build directory
+build/
+dist/
+*.egg-info/
